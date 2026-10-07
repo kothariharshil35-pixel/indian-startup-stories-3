@@ -1,0 +1,8 @@
+{
+  "name": "Indian Startup Stories",
+  "description": "Editorial platform and business publication documenting the journeys, founders, business models, and lessons behind India's boldest startups.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,127 @@
+import { FailureStory } from '../types';
+
+export const FAILURE_STORIES: FailureStory[] = [
+  {
+    id: 'stayzilla',
+    companyName: 'Stayzilla',
+    industry: 'Hospitality & Homestays',
+    foundedYear: 2005,
+    shutDownYear: 2017,
+    peakValuationOrFunding: '$34 Million across Series A & B (Matrix Partners, Nexus Venture Partners)',
+    corePremise: 'Pioneered an online marketplace for verified homestays, bed-and-breakfasts, and budget accommodations across Tier 2 and Tier 3 Indian towns.',
+    whatWentWrong: [
+      'High Customer Acquisition Costs (CAC) compared to low customer lifetime repeat frequency in budget travel.',
+      'Expanding into 4,000+ towns stretched field auditing teams, resulting in inconsistent host property quality.',
+      'Aggressive price discounting war with well-funded domestic OTAs (MakeMyTrip, Goibibo) and emerging aggregators like OYO.',
+      'Heavy operational overheads and friction in partner vendor collections and offline payments.',
+    ],
+    strategicLessons: [
+      'Demand-side acquisition costs must match supply-side unit margins; discounting cannot compensate for weak repeat retention.',
+      'Physical marketplace quality control deteriorates exponentially when scaling geographic coverage too quickly.',
+      'Cash flow liquidity buffers are vital during competitive capital wars.',
+    ],
+    sources: [
+      'Yogendra Vasupal (Co-founder) public announcement: "Restarting from a Hollow Point"',
+      'YourStory — The Rise and Fall of Stayzilla',
+      'The Economic Times — Autopsy of Stayzilla’s shutdown',
+    ],
+  },
+  {
+    id: 'peppertap',
+    companyName: 'PepperTap',
+    industry: 'Quick Grocery Delivery',
+    foundedYear: 2014,
+    shutDownYear: 2016,
+    peakValuationOrFunding: '$51 Million raised from Sequoia Capital India and SAIF Partners',
+    corePremise: 'Promised 2-hour on-demand grocery delivery by sending field shoppers into local neighborhood kirana stores to pick items and fulfill orders.',
+    whatWentWrong: [
+      'Negative gross margins: Every grocery delivery lost ₹150 to ₹200 on deep consumer discounting and courier logistics costs.',
+      'Inventory sync failure: Kirana shopkeepers frequently did not maintain real-time digital barcode tracking, leading to 25%+ item stock-outs after customer order placement.',
+      'Premature multi-city scaling: Expanded across 18 Indian cities in under 15 months before solving unit economics in its home market of Gurgaon.',
+    ],
+    strategicLessons: [
+      'Software cannot fix a broken physical inventory system without dedicated warehousing control.',
+      'Scaling unviable unit economics simply magnifies total cash burn faster.',
+      'Groceries are a low-margin, high-frequency game where supply chain ownership is paramount.',
+    ],
+    sources: [
+      'Navneet Singh (Founder) editorial reflection on Tech in Asia',
+      'Inc42 — Why PepperTap shut down its hyper-funded grocery delivery business',
+      'Mint — The perils of hyper-local grocery logistics in India',
+    ],
+  },
+  {
+    id: 'tinyowl',
+    companyName: 'TinyOwl',
+    industry: 'Food Delivery',
+    foundedYear: 2014,
+    shutDownYear: 2016,
+    peakValuationOrFunding: '$27 Million raised from Sequoia Capital and Matrix Partners',
+    corePremise: 'An intuitive smartphone app for instant restaurant food delivery launched by IIT Bombay graduates in Mumbai.',
+    whatWentWrong: [
+      'Blistering expansion into 6 major cities while simultaneously burning large subsidies per meal order.',
+      'Lack of full-stack delivery control: relying on uncoordinated restaurant staff caused delivery delays and customer churn.',
+      'High administrative burn: rapid office expansions and massive hiring ahead of sustainable revenues.',
+      'Brutal head-on capital competition from Zomato and Swiggy who raised larger war chests and owned rider fleets.',
+    ],
+    strategicLessons: [
+      'Do not hire heavily ahead of product-market stability and sustainable operational metrics.',
+      'Owning the customer fulfillment experience is essential when customer loyalty is fragile.',
+      'Fundraising size does not replace operational rigor in logistics-intensive categories.',
+    ],
+    sources: [
+      'Business Standard — Inside the implosion of Mumbai foodtech TinyOwl',
+      'FactorDaily — What really went wrong at TinyOwl',
+      'YourStory — Post-mortem on India’s early food delivery shakeout',
+    ],
+  },
+  {
+    id: 'dunzo',
+    companyName: 'Dunzo',
+    industry: 'Hyperlocal & Quick Commerce',
+    foundedYear: 2014,
+    shutDownYear: 2024,
+    peakValuationOrFunding: 'Over $450 Million raised; Reliance Retail backed at ~$775M valuation (2022)',
+    corePremise: 'Started as a WhatsApp concierge task service in Bengaluru ("Pick up my laundry", "Deliver my keys") before pivoting to 15-minute quick commerce (Dunzo Daily).',
+    whatWentWrong: [
+      'Pivoting from high-margin errands to capital-intensive dark store quick commerce against well-capitalized rivals (Blinkit, Zepto, Swiggy Instamart).',
+      'High dark-store lease commitments and inventory write-offs amid sudden capital winter conditions.',
+      'Governance and debt obligations creating severe working capital bottlenecks when followup venture rounds stalled.',
+    ],
+    strategicLessons: [
+      'Abandoning a unique, defensible niche (hyperlocal concierge) to enter a commodity capital war requires massive, enduring balance sheet strength.',
+      'Heavy debt structures in venture-backed models create acute fragility during downturns.',
+      'Customer love does not equal solvency if unit economics bleed cash on every delivery.',
+    ],
+    sources: [
+      'The Ken — How Dunzo lost the quick commerce race it helped start',
+      'The Economic Times — Dunzo’s struggle with debt, dark stores and restructuring',
+      'Reuters — Analysis of India’s quick commerce capital consolidation',
+    ],
+  },
+  {
+    id: 'byjus',
+    companyName: 'Byju\'s',
+    industry: 'EdTech',
+    foundedYear: 2011,
+    shutDownYear: 2024,
+    peakValuationOrFunding: 'Peak private valuation of $22 Billion; over $5 Billion raised from marquee global investors',
+    corePremise: 'Visual animations and engaging educational video software designed to make math and science intuitive for K-12 school students.',
+    whatWentWrong: [
+      'Aggressive debt-fuelled international acquisitions (Aakash, WhiteHat Jr, Great Learning) that strained working capital.',
+      'Over-reliance on high-pressure direct sales agents pushing multi-year loan financing, damaging consumer trust.',
+      'Post-COVID reversal: When physical schools reopened, demand for expensive digital tablet subscriptions plunged.',
+      'Corporate governance delays in audited statutory filings and severe disputes with Term Loan B lenders.',
+    ],
+    strategicLessons: [
+      'Aggressive telesales tactics and debt financing destroy long-term brand equity in high-trust categories like education.',
+      'Debt-financed M&A in non-cash-flow generative tech businesses introduces catastrophic balance sheet vulnerability.',
+      'Pristine accounting, statutory transparency, and corporate governance are fundamental prerequisites for lasting enterprise value.',
+    ],
+    sources: [
+      'National Company Law Tribunal (NCLT) insolvency proceedings and filings',
+      'The Ken / Morning Context — Comprehensive investigative series on Byju’s financials',
+      'Bloomberg — The rise and collapse of India’s most valuable startup',
+    ],
+  },
+];

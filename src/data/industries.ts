@@ -1,0 +1,68 @@
+import { IndustryCategory } from '../types';
+
+export const INDUSTRIES: IndustryCategory[] = [
+  {
+    id: 'fintech',
+    name: 'FinTech',
+    icon: '💰',
+    description: 'Transforming payments, discount broking, retail investments, and banking infrastructure across India.',
+    startups: ['Zerodha', 'Razorpay', 'CRED', 'PhonePe', 'Groww', 'Pine Labs'],
+    marketContext: 'Driven by UPI adoption, Aadhaar e-KYC, and the democratization of capital markets, Indian FinTech is projected to exceed $1.3T in total transaction value.',
+  },
+  {
+    id: 'foodtech',
+    name: 'FoodTech',
+    icon: '🍔',
+    description: 'Hyperlocal restaurant delivery, cloud kitchen operating models, and 10-minute quick commerce networks.',
+    startups: ['Zomato', 'Swiggy', 'Blinkit', 'Rebel Foods', 'Zepto'],
+    marketContext: 'Pioneered managed algorithmic logistics fleets; currently expanding dark-store quick commerce across Tier 1 and Tier 2 urban clusters.',
+  },
+  {
+    id: 'ecommerce',
+    name: 'E-commerce',
+    icon: '🛒',
+    description: 'Horizontal marketplaces, vertical beauty commerce, social reselling, and D2C supply chains.',
+    startups: ['Meesho', 'Nykaa', 'Flipkart', 'Purplle', 'Lenskart'],
+    marketContext: 'Moving rapidly from top-tier metro electronics sales into regional Tier 2/3 fashion, beauty, and unbranded lifestyle manufacturing hubs.',
+  },
+  {
+    id: 'edtech',
+    name: 'EdTech',
+    icon: '🎓',
+    description: 'Competitive test preparation, affordable digital classrooms, hybrid coaching centers, and upskilling.',
+    startups: ['Physics Wallah', 'Unacademy', 'Eruditus', 'Adda247', 'Scaler'],
+    marketContext: 'Transitioning from unsustainable VC-funded customer acquisition models to profitable, hybrid offline-online community institutions.',
+  },
+  {
+    id: 'consumer-tech',
+    name: 'Consumer Tech',
+    icon: '🎧',
+    description: 'Lifestyle audio, smart wearables, connected hardware, and youth-oriented direct-to-consumer brands.',
+    startups: ['boAt', 'Noise', 'Fire-Boltt', 'Boult Audio'],
+    marketContext: 'India is now the world’s second largest market for wearable smartwatches and TWS earphones, powered by localized Make-in-India assembly.',
+  },
+  {
+    id: 'hospitality',
+    name: 'Hospitality',
+    icon: '🏨',
+    description: 'Standardized budget accommodations, boutique stays, online travel aggregation, and hotel tech software.',
+    startups: ['OYO', 'MakeMyTrip', 'EaseMyTrip', 'Treebo'],
+    marketContext: 'Capitalizing on surging domestic tourism, pilgrimage travel corridors, and corporate mobility across non-metro Indian destinations.',
+  },
+  {
+    id: 'healthtech',
+    name: 'HealthTech',
+    icon: '🏥',
+    description: 'Online medicine delivery, teleconsultation doctor networks, diagnostic testing, and hospital management.',
+    startups: ['PharmEasy', 'Practo', 'Tata 1mg', 'MediBuddy'],
+    marketContext: 'Consolidating fragmented pharmacy supply chains and diagnostic labs through omnichannel prescription fulfillment and telemedicine.',
+  },
+  {
+    id: 'saas',
+    name: 'SaaS',
+    icon: '💻',
+    description: 'Global enterprise software, customer experience platforms, developer APIs, and cloud tools built from India.',
+    startups: ['Freshworks', 'Zoho', 'Postman', 'Icertis', 'BrowserStack'],
+    marketContext: 'Pioneered building world-class B2B software from Chennai, Bengaluru, and Pune serving global Fortune 500 enterprises with high capital efficiency.',
+  },
+];
